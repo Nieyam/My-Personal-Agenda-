@@ -1,0 +1,176 @@
+/* hier komt alle body opmaak in */
+
+/* COLOR SCHEME */
+
+/* wit ->  color: FFF;
+artic wit ->  background-color: #F0F4FF;
+lichtblauw->  background-color: #4E67EB;
+donkerblauw ->  background-color: #291D89; */
+/* html, body, .left {
+    min-height: 100% !important;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html {
+    overflow-y: scroll !important;
+    scroll-behavior: smooth !important;
+}
+
+#hometext{
+    max-width: 26%;
+    left: 10%;
+    top: 30px;
+    position: relative;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
+}
+#homebook{
+    max-height: 100%;
+    margin: 15px;
+    padding: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+/* task 1 (in agenda) : 
+width: 587.5px;
+height: 74px;
+background: transparent;
+!Ook deze moet natuurlijk anders enzo
+
+Text dagen in agenda : 
+font-family: "Segoe UI"; 
+font-weight: normal;
+font-size: 37px;
+text-align: left;
+color: #b4b4b4;
+!gebruik kubik lettertype
+
+box boven agenda en onder banner : 
+width: 1920px;
+height: 128px;
+background: #fff;
+box-shadow: 3px 3px 6px rgba(83, 83, 83, 0.33);
+
+vak rechts naast agenda om tasks aan te passen : 
+width: 297px;
+height: 871px;
+background: #7594e7;
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+
+text in vak naast agenda : 
+font-family: "Segoe UI";
+font-weight: normal;
+font-size: 38px;
+text-align: left;
+color: #fff; */
+
+/*Css home pagina */
+.cola {
+    margin-bottom: 10%;       
+    margin-left: 10%; 
+}
+
+.submit {
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: #fff;
+    background-color: #7594E7; 
+    text-align: center;
+    padding: 14px 16px;
+    margin: 3% 0% 3% 0%;
+    text-decoration: none;
+}
+
+table {
+    margin-bottom: 10%;       
+    margin-left: 5%;
+}
+
+table input {
+    padding: 3%;
+    width: 120%;
+    border: .5px solid  #3a50be36;  
+    border-radius: 5px;
+}
+
+table input:focus {
+    padding: 3%;
+    width: 120%;
+    border: .5px #3a50be solid;
+    border-radius: 5px;
+}
+
+.well {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    margin-top: 5%;
+    height: 500px;
+    background-color: #7594E7;
+    color: rgb(224, 221, 221);
+    font-family: 'Rubik', sans-serif !important;
+}
+
+#profiel {
+    padding-top: 5%;
+    top: 5%;
+}
+
+#vnaam{
+    position: relative;
+    width: 60%;
+    left: 34%;
+}
+
+#anaam {
+    padding-top: 30px;
+    position: relative;
+    width: 50%;
+    left: 35%;
+}
+
+#email {
+    padding-top: 15px;
+    position: relative;
+    width: 80%;
+    left: 33%;
+}
+
+#user {
+    padding-top: 15px;
+    position: relative;
+    width: 90%;
+    left: 25%;
+}
+
+#ggebruiker {
+    border-radius: 50%;
+    height: 62%;
+    width: 30%;
+    padding-top: -25%;
+    top: 18%;
+    left: 10%;
+    position: absolute;
+
+}

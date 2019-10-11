@@ -1,0 +1,88 @@
+.left {
+    width: 80%;
+    float: left;
+    min-height: 100% !important;
+}
+form {
+    min-height: 100%;
+}
+#dashMessage {
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+#dashboard {
+    min-height: 100% !important;
+    height: 100%;
+    float: right;
+    width: 20%;
+    background-color: #7594E7;
+}
+#dashControls {
+    padding: 15px;
+}
+#dashControls h3 {
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+#taskName, #date, .taskTime, #color {
+    border-radius: 5px;
+    border: none;
+    height: 22px!important;
+}
+.taskTime {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+.timeHolder {
+    width: 100%;
+    float: left;
+    padding: 10px 0 10px 0;
+}
+#startLabel {
+    float: left;
+    color: white;
+}
+#finishedLabel {
+    float: left;
+    color: white;
+}
+.dashInfo {
+    padding: 0 0 15px 0 !important;
+} 
+#priority {
+    width: 100%;  
+}
+#discription {
+    padding: 0 0 15px 0;
+}
+#taskDisc {
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+#goButton {
+    border-radius: 5px;
+    border: none;
+    background-color: #4E67EB;
+    color: white;
+    width: 60%;
+    padding: 10px;
+    margin: 1px;
+    min-width: 134px;
+}
+#goButton:hover {
+    border: 1px solid white;
+}
+#stopButton {
+    border-radius: 5px;
+    border: none;
+    background-color: #4E67EB;
+    color: white;
+    width: 30%;
+    min-width: 67px;
+    padding: 10px;
+}
